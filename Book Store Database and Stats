@@ -1,0 +1,14 @@
+/**books:
+Harry Potter (82)
+Twilight (83)
+Seven Husbands (99)
+**/
+
+CREATE TABLE Books(id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO Books VALUES(1, "Harry Potter", 82);
+INSERT INTO Books VALUES(2, "Twilight", 83);
+INSERT INTO Books VALUES(3, "Seven Husbands", 99);
+
+SELECT*
+From Books;
